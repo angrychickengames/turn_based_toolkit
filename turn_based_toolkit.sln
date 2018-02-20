@@ -1,14 +1,24 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "turn_based_toolkit", "Assembly-CSharp.csproj", "{EDEEADCA-D7C8-ABDD-A111-717D93CFB0CE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "turn_based_toolkit", "Assembly-CSharp-Editor.csproj", "{84D94B42-A474-BE31-B16C-D124DAFBCF33}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-
+		{EDEEADCA-D7C8-ABDD-A111-717D93CFB0CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDEEADCA-D7C8-ABDD-A111-717D93CFB0CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDEEADCA-D7C8-ABDD-A111-717D93CFB0CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDEEADCA-D7C8-ABDD-A111-717D93CFB0CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84D94B42-A474-BE31-B16C-D124DAFBCF33}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84D94B42-A474-BE31-B16C-D124DAFBCF33}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84D94B42-A474-BE31-B16C-D124DAFBCF33}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84D94B42-A474-BE31-B16C-D124DAFBCF33}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
